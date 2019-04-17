@@ -1,0 +1,29 @@
+{
+  "name": "atlas2egret",
+  "version": "1.0.0",
+  "description": "将layaAir中的.atlas转换为Egret中的.json图集格式",
+  "main": "atlas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "atlas2json":"node atlas2json.js",
+    "json2atlas":"node json2atlas.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wangpengli0419/altas2json.git"
+  },
+  "keywords": [
+    "Laya",
+    "LayaAir",
+    "Egret",
+    "atlas",
+    "json"
+  ],
+  "author": "wangpengli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wangpengli0419/altas2json/issues"
+  },
+  "homepage": "https://github.com/Wangpengli0419/altas2json#readme"
+}

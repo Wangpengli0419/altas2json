@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'atlas2egret' ]
+2 info using npm@4.1.2
+3 info using node@v7.6.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData atlas2egret
+8 silly fetchNamedPackageData atlas2egret
+9 silly mapToRegistry name atlas2egret
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'atlas2egret',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'atlas2egret',
+12 silly mapToRegistry   name: 'atlas2egret',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/atlas2egret
+14 verbose request uri https://registry.npmjs.org/atlas2egret
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 01:36:48
+17 verbose request using bearer token for auth
+18 verbose request id 6ff0fe9f9eacb463
+19 verbose etag W/"eaeb378a2ec21554ef34c9238a21845b"
+20 verbose lastModified Wed, 17 Apr 2019 17:26:07 GMT
+21 http request GET https://registry.npmjs.org/atlas2egret
+22 http 304 https://registry.npmjs.org/atlas2egret
+23 verbose headers { date: 'Wed, 17 Apr 2019 17:36:54 GMT',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'set-cookie': [ '__cfduid=d0b40e510ebdd890d7e4390ef0f0a49441555522614; expires=Thu, 16-Apr-20 17:36:54 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+23 verbose headers   'cf-cache-status': 'HIT',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'cf-ray': '4c9029f68e297c28-LAX',
+23 verbose headers   etag: '"eaeb378a2ec21554ef34c9238a21845b"',
+23 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 verbose headers   'last-modified': 'Wed, 17 Apr 2019 17:26:07 GMT',
+23 verbose headers   vary: 'accept-encoding, accept',
+23 verbose headers   'x-amz-meta-rev': '1-698de051e3bc833819606d225d682736',
+23 verbose headers   server: 'cloudflare' }
+24 silly get cb [ 304,
+24 silly get   { date: 'Wed, 17 Apr 2019 17:36:54 GMT',
+24 silly get     connection: 'keep-alive',
+24 silly get     'set-cookie': [ '__cfduid=d0b40e510ebdd890d7e4390ef0f0a49441555522614; expires=Thu, 16-Apr-20 17:36:54 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+24 silly get     'cf-cache-status': 'HIT',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'cf-ray': '4c9029f68e297c28-LAX',
+24 silly get     etag: '"eaeb378a2ec21554ef34c9238a21845b"',
+24 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+24 silly get     'last-modified': 'Wed, 17 Apr 2019 17:26:07 GMT',
+24 silly get     vary: 'accept-encoding, accept',
+24 silly get     'x-amz-meta-rev': '1-698de051e3bc833819606d225d682736',
+24 silly get     server: 'cloudflare' } ]
+25 verbose etag https://registry.npmjs.org/atlas2egret from cache
+26 verbose get saving atlas2egret to C:\Users\wang\AppData\Roaming\npm-cache\registry.npmjs.org\atlas2egret\.cache.json
+27 verbose correctMkdir C:\Users\wang\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 silly install normalizeTree
+29 silly loadCurrentTree Finishing
+30 silly loadIdealTree Starting
+31 silly install loadIdealTree
+32 silly cloneCurrentTree Starting
+33 silly install cloneCurrentTreeToIdealTree
+34 silly cloneCurrentTree Finishing
+35 silly loadShrinkwrap Starting
+36 silly install loadShrinkwrap
+37 silly loadShrinkwrap Finishing
+38 silly loadAllDepsIntoIdealTree Starting
+39 silly install loadAllDepsIntoIdealTree
+40 silly rollbackFailedOptional Starting
+41 silly rollbackFailedOptional Finishing
+42 silly runTopLevelLifecycles Finishing
+43 silly install printInstalled
+44 verbose stack Error: Refusing to install package with name "atlas2egret" under a package
+44 verbose stack also called "atlas2egret". Did you name your project the same
+44 verbose stack as the dependency you're installing?
+44 verbose stack
+44 verbose stack For more information, see:
+44 verbose stack     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+44 verbose stack     at checkSelf (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:53:14)
+44 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+44 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+44 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+44 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:16:5
+44 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+44 verbose stack     at Array.forEach (native)
+44 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+44 verbose stack     at Array.forEach (native)
+44 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+45 verbose cwd C:\Users\wang\Desktop\atlas2json
+46 error Windows_NT 10.0.17134
+47 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "atlas2egret"
+48 error node v7.6.0
+49 error npm  v4.1.2
+50 error code ENOSELF
+51 error Refusing to install package with name "atlas2egret" under a package
+51 error also called "atlas2egret". Did you name your project the same
+51 error as the dependency you're installing?
+51 error
+51 error For more information, see:
+51 error     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
